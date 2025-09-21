@@ -16,7 +16,7 @@ os.makedirs(output_dir, exist_ok=True)
 # Specify the target size for rotating
 rotation_angle = 90  # Change this to your desired size
 
-# Loop through the hardcoded image paths and resize
+# Loop through the hardcoded image paths and rotate
 for i, img_path in enumerate(image_paths):
     # Load the image
     img = Image.open(img_path)
